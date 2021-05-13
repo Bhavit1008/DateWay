@@ -64,6 +64,4 @@ dependencies {
     implementation 'pub.hanks:smallbang:1.2.2'
 
 
-    //circular imageview
-    implementation 'de.hdodenhof:circleimageview:3.1.0'
 }

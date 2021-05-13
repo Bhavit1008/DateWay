@@ -4,18 +4,16 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="10dp"
-    >
+    android:padding="10dp">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:elevation="24dp"
-        app:cardCornerRadius="12dp"
         android:layout_margin="4dp"
-        >
-        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:elevation="24dp"
+        app:cardCornerRadius="12dp">
+
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp">
@@ -27,12 +25,13 @@
                 android:elevation="24dp"
                 app:cardCornerRadius="40dp">
 
-                <de.hdodenhof.circleimageview.CircleImageView
+                <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/profile_image"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/Bella"
-                    android:scaleType="fitXY"/>
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bella"
+                    app:shapeAppearanceOverlay="@style/circular" />
             </androidx.cardview.widget.CardView>
 
 
@@ -46,8 +45,7 @@
                 android:layout_toRightOf="@id/profile_img_card"
                 android:text="Bella Poarch"
                 android:textColor="#363866"
-                android:textSize="18sp"
-                />
+                android:textSize="18sp" />
 
 
             <TextView
@@ -66,21 +64,20 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="now"
                 android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"/>
+                android:layout_centerVertical="true"
+                android:text="now" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:elevation="24dp"
-        app:cardCornerRadius="12dp"
         android:layout_margin="4dp"
-        >
-        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:elevation="24dp"
+        app:cardCornerRadius="12dp">
+
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp">
@@ -92,12 +89,13 @@
                 android:elevation="24dp"
                 app:cardCornerRadius="40dp">
 
-                <de.hdodenhof.circleimageview.CircleImageView
+                <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/profile_image1"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/Krutika"
-                    android:scaleType="fitXY"/>
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/krutika"
+                    app:shapeAppearanceOverlay="@style/circular" />
             </androidx.cardview.widget.CardView>
 
 
@@ -111,8 +109,7 @@
                 android:layout_toRightOf="@id/profile_img_card1"
                 android:text="Krutika"
                 android:textColor="#363866"
-                android:textSize="18sp"
-                />
+                android:textSize="18sp" />
 
 
             <TextView
@@ -131,21 +128,20 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="16:25"
                 android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"/>
+                android:layout_centerVertical="true"
+                android:text="16:25" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:elevation="24dp"
-        app:cardCornerRadius="12dp"
         android:layout_margin="4dp"
-        >
-        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:elevation="24dp"
+        app:cardCornerRadius="12dp">
+
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp">
@@ -157,12 +153,13 @@
                 android:elevation="24dp"
                 app:cardCornerRadius="40dp">
 
-                <de.hdodenhof.circleimageview.CircleImageView
+                <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/profile_image2"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/RashmikaMandanna"
-                    android:scaleType="fitXY"/>
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/rashmika_mandanna"
+                    app:shapeAppearanceOverlay="@style/circular" />
             </androidx.cardview.widget.CardView>
 
 
@@ -176,8 +173,7 @@
                 android:layout_toRightOf="@id/profile_img_card2"
                 android:text="Rashmika Mandana"
                 android:textColor="#363866"
-                android:textSize="18sp"
-                />
+                android:textSize="18sp" />
 
 
             <TextView
@@ -196,9 +192,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="15:10"
                 android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"/>
+                android:layout_centerVertical="true"
+                android:text="15:10" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 </LinearLayout>
