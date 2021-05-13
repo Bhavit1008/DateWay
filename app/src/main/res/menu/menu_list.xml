@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"
+        app:cnb_backgroundColor="#FFB6C1"
+        app:cnb_iconColor="#FFB6C1"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="#FFB6C1" />
+
+    <item
+        android:id="@+id/setting"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:title="setting"
+        app:cnb_backgroundColor="#FFB6C1"
+        app:cnb_iconColor="#FFB6C1"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="#FFB6C1" />
+
+    <item
+        android:id="@+id/chat"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_chat_bubble_24"
+        android:title="Home"
+        app:cnb_backgroundColor="#FFB6C1"
+        app:cnb_iconColor="#FFB6C1"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="#FFB6C1" />
+
+    <item
+        android:id="@+id/profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="profile"
+        app:cnb_backgroundColor="#FFB6C1"
+        app:cnb_iconColor="#FFB6C1"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="#FFB6C1" />
+
+
+
+</menu>
