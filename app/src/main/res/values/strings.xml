@@ -5,4 +5,7 @@
     <string name="name">Rashmika Mandanna</string>
     <string name="age">28</string>
     <string name="location">Mumbai</string>
+    <string name="setting_title">Settings</string>
+    <string name="chats_title">Chats</string>
+
 </resources>

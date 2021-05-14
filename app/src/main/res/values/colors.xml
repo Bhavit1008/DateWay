@@ -21,4 +21,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="status_theme_green">#3A9046</color>
     <color name="toolbar_color">#4BB85B</color>
+    <color name="light_grey">#6C6849</color>
+    <color name="grey">#C1C0C0</color>
+    <color name="more_light_grey">#ECE6E6</color>
 </resources>
