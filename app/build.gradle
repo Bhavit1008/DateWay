@@ -63,5 +63,7 @@ dependencies {
     //heart animation
     implementation 'pub.hanks:smallbang:1.2.2'
 
+    //dots
+    implementation 'com.tbuonomo:dotsindicator:4.2'
 
 }

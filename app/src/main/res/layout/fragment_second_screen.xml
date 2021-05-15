@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.intro.SecondScreen">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="skip >"
+        android:background="@drawable/edit_text_background"
+        android:textSize="16sp"
+        android:padding="4dp"
+        android:layout_margin="8dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/skip_btn_second"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/chat_second"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/img_center_second"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stay tuned"
+        android:textSize="36dp"
+        android:layout_below="@id/img_center_second"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:id="@+id/main_heading_txt_second"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let the words speak emotions..."
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_below="@id/main_heading_txt_second"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:id="@+id/indicator_layout_second"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp">
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/circle"
+            android:layout_marginRight="8dp"/>
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/circle"
+            android:id="@+id/second_dot"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textSize="20sp"
+        android:background="@drawable/btn_backgrounde"
+        android:textColor="#fff"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:padding="4dp"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:id="@+id/start_btn_first"/>
+</RelativeLayout>

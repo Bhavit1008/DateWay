@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/swiper_relative_layout_home"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    >
 
     <ImageView
         android:id="@+id/img_swiper"
@@ -10,10 +11,14 @@
         android:layout_height="match_parent"
         android:layout_marginBottom="75dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/anuj" />
+        android:src="@drawable/anuj"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
 
 
     <RelativeLayout
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="75dp"
@@ -37,7 +42,7 @@
                     android:id="@+id/txt_name_swiper"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Anuj Sharma"
+                    android:text="Anuj Sharma,"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:textStyle="bold" />
@@ -91,10 +96,10 @@
 
                 <ImageView
                     android:id="@+id/like_btn"
-                    android:layout_gravity="center"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/favorite_24"/>
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/ic_baseline_favorite_24"
+                    android:layout_marginRight="2dp"/>
 
                 <View
                     android:layout_width="0dp"
@@ -103,8 +108,8 @@
 
                 <ImageView
                     android:id="@+id/dislike_btn"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
                     android:src="@drawable/thumb_down_24"/>
             </LinearLayout>
 

@@ -9,9 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DateMe">
-        <activity android:name=".ui.auth.Login_activity"
-            android:theme="@style/status_bar_mainactivity"></activity>
-        <activity android:name=".ui.auth.splash_screen_class"
+        <activity android:name=".ui.intro.IntroActivity"></activity>
+        <activity
+            android:name=".ui.auth.Login_activity"
+            android:theme="@style/status_bar_mainactivity" />
+        <activity
+            android:name=".ui.auth.splash_screen_class"
             android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,9 +22,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".MainActivity"
-            android:theme="@style/status_bar_mainactivity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/status_bar_mainactivity" />
     </application>
 
 </manifest>
