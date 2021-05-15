@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DateMe">
-        <activity android:name=".ui.intro.IntroActivity"></activity>
+        <activity android:name=".ui.intro.IntroActivity"
+            android:theme="@style/status_bar_mainactivity">
+
+        </activity>
         <activity
             android:name=".ui.auth.Login_activity"
             android:theme="@style/status_bar_mainactivity" />
